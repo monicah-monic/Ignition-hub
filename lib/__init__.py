@@ -1,4 +1,4 @@
-import sqlite3
+# import sqlite3
 
-connection = sqlite3.connect('lib/ignition.db')
-cursor = connection.cursor
+# connection = sqlite3.connect('lib/ignition.db')
+# cursor = connection.cursor
