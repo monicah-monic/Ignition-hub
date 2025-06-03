@@ -129,7 +129,7 @@ def create_car_rental():
         car_rental = Rental(car_id= car_id,customer_id=customer_id, price=price, rental_date= rental_date, return_date= return_date)
         session.add(car_rental)
         session.commit()
-        print("Car hired")
+        print(f"Car id {car.id},{car.license_plate} has been hired by customer id: {customer.id}")
     else:
         print("Car or customer not found")    
   
