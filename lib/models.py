@@ -5,8 +5,6 @@ from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 Base = declarative_base()
 
 
-
-
 class Customer(Base):
     __tablename__ = "customers"
 

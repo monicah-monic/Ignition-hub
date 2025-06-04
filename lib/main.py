@@ -170,7 +170,7 @@ def update_car_rental():
         print("Car not found!")  
 
 def delete_car_rental():
-    car_rental_id = input("Enter rental id")
+    car_rental_id = input("Enter rental id:")
     car_rental = session.query(Rental).get(car_rental_id)
     if car_rental:
         session.delete(car_rental)
